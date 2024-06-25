@@ -1,0 +1,9 @@
+.list-quiz-container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    height: calc(100vh - 60px);
+    /* Adjust the max height as needed */
+    overflow-y: auto;
+    /* Add scrollbar when content exceeds the height */
+}

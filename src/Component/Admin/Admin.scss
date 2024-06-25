@@ -1,0 +1,27 @@
+.admin-container {
+    display: flex; //con xep theo hang ngang
+
+    .admin-sidebar {
+        .pro-sidebar {
+            height: 100vh !important;
+        }
+    }
+
+    .admin-content {
+        width: 100%;
+
+        .admin-header {
+            height: 40px;
+            border: 1px solid green;
+        }
+
+        .admin-main {
+            height: calc(100vh - 40px);
+
+            .user-pagination {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
